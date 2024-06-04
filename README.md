@@ -1,26 +1,30 @@
 # Application of CFG in Syntactic Parsing
-This project demonstrates the application of Context-Free Grammars (CFG) in syntactic parsing using Python and Streamlit. It utilizes the CYK algorithm to parse sentences based on a defined CFG and presents the results in an interactive graphical user interface (GUI) powered by Streamlit.
+# Description:
+This project aims to develop a tool that checks whether Indonesian sentences have a standard and correct structure according to Indonesian grammar rules. It utilizes Context-Free Grammars (CFG) to analyze the syntactic structure of sentences and identify any grammatical errors. The tool also generates a triangular construction table to visualize the parsing process.
 
-# Key Features
-CFG Implementation: The project effectively implements a CFG to represent the grammatical structure of a language.
+# Technologies:
 
-CYK Algorithm Integration: It seamlessly integrates the CYK algorithm to efficiently parse sentences based on the defined CFG.
+Python: Programming language for implementing the CFG-based parsing algorithm
+Streamlit: Python library for creating interactive web applications
+CFG: Formal grammar framework for defining Indonesian syntax rules
 
-Streamlit GUI: The project utilizes Streamlit to create an interactive GUI, allowing users to input sentences and visualize the parsing results.
+# Features:
+Checks Indonesian sentences for grammatical correctness
+Generates a triangular construction table for each parsed sentence
+Provides a user-friendly interface for inputting and analyzing sentences
 
-# Project Setup
-Clone the Repository: Clone the project repository from GitHub.
+# Benefits:
+Improves Indonesian language proficiency by identifying and correcting grammatical errors
+Enhances understanding of Indonesian sentence structure
+Provides a valuable tool for Indonesian language learners and educators
 
-Install Dependencies: Install the required Python libraries using pip.
+# Usage:
+Clone the repository to your local machine
+Install the required dependencies (Python, Streamlit)
+Run the main script (e.g., main.py)
+Use the web interface to input and analyze Indonesian sentences
 
-Run the Application: Execute the main Python script to launch the Streamlit application.
-
-# Usage
-Input Sentence: Enter a sentence in the designated text field.
-
-Parse Sentence: Click the "Parse" button to trigger the parsing process.
+# Conclusion:
+This project provides a practical application of CFGs for syntactic parsing of Indonesian sentences. It serves as a valuable tool for improving Indonesian language proficiency and understanding sentence structure.
 
 View Results: Observe the parsed sentence structure displayed in the GUI.
-
-# Conclusion
-This project effectively demonstrates the application of CFGs in syntactic parsing using Python and Streamlit. It provides an interactive and educational tool for understanding the concepts of syntactic analysis and natural language processing.
